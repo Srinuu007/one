@@ -6,31 +6,39 @@
     <title>NexusShop — Modern E‑Commerce</title>
 
     <!-- Fonts & Icons -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"  rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
 
     <style>
         /* ========== ROOT VARIABLES ========== */
         :root {
-            --bg: #fafaf8;
-            --bg-card: #ffffff;
-            --primary: #1a1a2e;
-            --primary-light: #2d2d44;
-            --accent: #e07a5f;
-            --accent-light: #f4d0c4;
-            --accent-dark: #c05a3e;
-            --muted: #6b6b7a;
-            --muted-light: #a0a0b0;
-            --surface: #f0efed;
-            --success: #2a9d8f;
-            --warning: #e9c46a;
-            --radius: 16px;
-            --radius-sm: 10px;
-            --shadow: 0 4px 24px rgba(26, 26, 46, 0.06);
-            --shadow-hover: 0 12px 48px rgba(26, 26, 46, 0.10);
-            --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-            --container: 1240px;
-        }
+    --bg: #f8fbff;
+    --bg-card: #ffffff;
+
+    --primary: #2563eb;
+    --primary-light: #3b82f6;
+
+    --accent: #ff6b6b;
+    --accent-light: #ffe5e5;
+    --accent-dark: #ff4757;
+
+    --muted: #64748b;
+    --muted-light: #94a3b8;
+
+    --surface: #eef6ff;
+
+    --success: #22c55e;
+    --warning: #fbbf24;
+
+    --radius: 18px;
+    --radius-sm: 12px;
+
+    --shadow: 0 8px 25px rgba(59,130,246,.08);
+    --shadow-hover: 0 20px 50px rgba(59,130,246,.18);
+
+    --transition: .3s ease;
+    --container: 1240px;
+}
 
         /* ========== RESET & BASE ========== */
         * {
@@ -42,13 +50,15 @@
             scroll-behavior: smooth;
         }
         body {
-            font-family: 'Inter', system-ui, -apple-system, sans-serif;
-            background: var(--bg);
-            color: var(--primary);
-            line-height: 1.5;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom,#f8fbff,#eef6ff);
+    color: var(--primary);
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5{
+    font-family:'Outfit',sans-serif;
+    letter-spacing:-0.5px;
+}
         a {
             color: inherit;
             text-decoration: none;
